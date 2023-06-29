@@ -5,9 +5,9 @@ Every time the user guesses wrongly; hints are given. Hints are given based on t
 
 
 ## What I used
-<b>get_user_input(prompt)</b>: Asks the user for input using the provided 'prompt' parameter and returns the entered value.
-<b>generate_random_number()</b>: Generates a random number between 1 and 100 using the 'random.randint()' function from the 'random' module. It returns the generated number.
-<b>get_user_guess()</b>: Prompts the user to enter  guess and validates the input. It uses a 'while' loop to continuously ask for input until a valid integer between 1 and 100 is entered. It returns the user's guess as an integer.
+<b>get_user_input(prompt)</b>: Asks the user for input using the provided 'prompt' parameter and returns the entered value.<br>
+<b>generate_random_number()</b>: Generates a random number between 1 and 100 using the 'random.randint()' function from the 'random' module. It returns the generated number.<br>
+<b>get_user_guess()</b>: Prompts the user to enter  guess and validates the input. It uses a 'while' loop to continuously ask for input until a valid integer between 1 and 100 is entered. It returns the user's guess as an integer.<br>
 <b>play_game()</b>: It initializes the game by generating a random number, setting the number of attempts to 0, and displaying a welcome message. It then enters a 'while' loop that continues until the user guesses the correct number. In each iteration, it increments the number of attempts, prompts the user for a guess and compares with the secret number. It provides feedback based on the user's guess and ends the loop once the guess is the same as the secret number, it then displays a congratulatory message.
 
 
